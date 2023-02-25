@@ -1,71 +1,51 @@
 @extends('layout.default')
 
 @section('content')
-    <header x-data="{ open: false }" @keydown.window.escape="open = false" class="bg-white">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-            <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600" alt="">
-                </a>
-            </div>
-            <div class="flex lg:hidden">
-                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="open = true">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Product</a>
-
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
-
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">→</span></a>
-            </div>
-        </nav>
-        <div x-description="Mobile menu, show/hide based on menu open state." class="lg:hidden" x-ref="dialog" x-show="open" aria-modal="true" style="display: none;">
-            <div x-description="Background backdrop, show/hide based on slide-over state." class="fixed inset-0 z-10"></div>
-            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" @click.away="open = false">
-                <div class="flex items-center justify-between">
-                    <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Your Company</span>
-                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600" alt="">
-                    </a>
-                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="open = false">
-                        <span class="sr-only">Close menu</span>
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    </button>
-                </div>
-                <div class="mt-6 flow-root">
-                    <div class="-my-6 divide-y divide-gray-500/10">
-                        <div class="space-y-2 py-6">
-
-                            <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-
-                            <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-
-                            <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-                            <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
-
-                        </div>
-                        <div class="py-6">
-                            <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="grid grid-cols-2 mb-10">
+        <div class="col-span-2 mb-7">
+            <h2 class="font-bold"><span class="text-[#c591e7]">public function</span> <span
+                    class="text-[#7ca2f4]">over_rick</span><span class="text-[#88ddff]">(</span><span
+                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
+                <span class="text-[#88ddff]">{</span></h2>
+            {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
         </div>
-    </header>
+        <div class="col-span-2 pl-3 p-1">
+            Ik ben van nature een enthousiast persoon. Ik ben vol enthousiasme als ik aan een taak begin. Ik zou mezelf
+            misschien een avonturier noemen, omdat ik het leuk vind om zowel op persoonlijk als professioneel gebied
+            nieuwe dingen te ontdekken. Ik ben pas 23 jaar oud en ik probeer het beste uit het leven te halen en er het
+            mooiste van te maken.
+        </div>
+        <span class="text-[#88ddff] font-bold mt-5">}</span>
+    </div>
+    <div class="grid grid-cols-2 mb-10">
+        <div class="col-span-2 mb-7">
+            <h2 class="font-bold"><span class="text-[#c591e7]">public function</span> <span
+                    class="text-[#7ca2f4]">foto_rick</span><span class="text-[#88ddff]">(</span><span
+                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
+                <span class="text-[#88ddff]">{</span></h2>
+            {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
+        </div>
+        <div class="col-span-2 pl-3 p-1">
+            <img src="{{ asset('img/rick-computer.jpeg') }}" alt="rick-computer">
+        </div>
+        <span class="text-[#88ddff] font-bold mt-5">}</span>
+    </div>
+    <div class="grid grid-cols-2 mb-10">
+        <div class="col-span-2 mb-7">
+            <h2 class="font-bold"><span class="text-[#c591e7]">public function</span> <span
+                    class="text-[#7ca2f4]">hobby's</span><span class="text-[#88ddff]">(</span><span
+                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
+                <span class="text-[#88ddff]">{</span></h2>
+            {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
+        </div>
+        <div class="col-span-2 pl-3 p-1">
+            Ik heb een aantal hobby's waar ik graag mijn tijd aan besteed. Zo vind ik het bijvoorbeeld heerlijk om te
+            gamen, vooral als ik samen met vrienden speel. Daarnaast houd ik ervan om dingen te klussen en te repareren,
+            het is bevredigend om iets te maken en te zien dat het werkt. Ook ben ik geïnteresseerd in programmeren, ik
+            vind het leuk om nieuwe dingen te creëren en problemen op te lossen. En tot slot, als ik even wil
+            ontspannen, kijk ik graag naar films en series. Het is een geweldige manier om mijn geest te laten rusten en
+            mijn fantasie te stimuleren.
+        </div>
+        <span class="text-[#88ddff] font-bold mt-5">}</span>
+    </div>
 @endsection
