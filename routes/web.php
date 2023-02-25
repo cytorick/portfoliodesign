@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('welcome'); })->name('home');
 Route::get('/carriere', function () { return view('experience'); })->name('experience');
-Route::get('/skills', function () { return view('experience'); })->name('skills');
-Route::get('/projecten', function () { return view('experience'); })->name('projects');
+Route::get('/skills', function () { return view('skills'); })->name('skills');
+Route::get('/projecten', function () { return view('projects'); })->name('projects');
