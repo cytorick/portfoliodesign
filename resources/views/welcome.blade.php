@@ -28,7 +28,7 @@
             {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
         </div>
         <div class="col-span-2 pl-3 p-1">
-            <img src="{{ asset('img/rick-computer.jpeg') }}" alt="rick-computer">
+            <img src="{{ asset('img/rick-computer.jpeg') }}" class="rounded" alt="rick-computer">
         </div>
         <span class="text-[#88ddff] font-bold mt-5">}</span>
     </div>
