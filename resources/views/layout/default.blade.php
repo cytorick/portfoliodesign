@@ -163,6 +163,15 @@
                             class="text-[#c3e88d]">"Projecten"</span>
                     </div>
                 </a>
+                <a href="{{ route('contact') }}">
+                    <div
+                        class="code-link hover:bg-gray-700 p-1 pl-3 rounded">
+                        <span class="text-xs font-normal text-gray-400">// neem contact met mij op</span> <br>
+                        <span class="text-[#ff5370]">$this</span><span class="text-[#88ddff]">-></span><span
+                            class="text-[#eeffff]">browse</span> <span class="text-[#88ddff]">=></span> <span
+                            class="text-[#c3e88d]">"Contact"</span>
+                    </div>
+                </a>
                 <span class="text-[#88ddff]">}</span>
             </div>
 {{--            <div class="font-bold mt-5">--}}
