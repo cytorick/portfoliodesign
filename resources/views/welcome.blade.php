@@ -1,5 +1,7 @@
 @extends('layout.default')
 
+@section('title', 'Welkom!')
+
 @section('content')
     <div class="grid grid-cols-2 mb-10">
         <div class="col-span-2 mb-7">

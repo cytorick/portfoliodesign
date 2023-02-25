@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Rick Visser</title>
+    <title>@yield('title') - {{ config('app.name') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,8 +14,8 @@
     <script src="https://kit.fontawesome.com/9b4cb69171.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </head>
-<body class="antialiased bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
-<main>
+<body class="antialiased min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+<main class="min-h-screen">
     <section class="container mx-auto py-20">
         <div class="grid grid-cols-6 gap-4">
             <div class="col-span-6 hidden md:block">
@@ -69,7 +70,7 @@
                                 <span class="text-xs font-normal text-gray-400">// mijn ervaring</span> <br>
                                 <span class="text-[#ff5370]">$this</span><span class="text-[#88ddff]">-></span><span
                                     class="text-[#eeffff]">browse</span> <span class="text-[#88ddff]">=></span> <span
-                                    class="text-[#c3e88d]">"Carriere"</span>
+                                    class="text-[#c3e88d]">"Carrière"</span>
                             </div>
                         </a>
                         <a href="{{ route('projects') }}">
@@ -141,7 +142,7 @@
                         <span class="text-xs font-normal text-gray-400">// mijn ervaring</span> <br>
                         <span class="text-[#ff5370]">$this</span><span class="text-[#88ddff]">-></span><span
                             class="text-[#eeffff]">browse</span> <span class="text-[#88ddff]">=></span> <span
-                            class="text-[#c3e88d]">"Carriere"</span>
+                            class="text-[#c3e88d]">"Carrière"</span>
                     </div>
                 </a>
                 <a href="{{ route('projects') }}">
