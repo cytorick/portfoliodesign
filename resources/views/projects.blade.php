@@ -12,44 +12,95 @@
             {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
         </div>
         <div class="col-span-2 pl-3 p-1">
-            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-1 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-                <li>
-                    <div class="flex items-center space-x-4 lg:space-x-6">
-                        <img class="w-20" src="{{ asset('img/ewa.png') }}" alt="">
-                        <div class="space-y-1 text-md font-semibold leading-6">
-                            <h3>Scanner applicatie</h3>
-                            <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>
-                            <p class="font-normal text-sm">
-                                De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om voorraad te beheren en te verplaatsen door middel van een QR-code scanner.
-                            </p>
+            <div class="grid grid-cols-1 gap-8">
+                <a href="https://www.europeanwhiskyauctions.com" target="_blank">
+                    <div class="col-span-1 bg-gray-800 hover:bg-gray-700 p-4 rounded">
+                        <div class="grid grid-cols-4">
+                            <div class="col-span-3">
+                                <h3 class="font-bold">Scanner applicatie</h3>
+                                <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>
+                                <p class="font-normal text-sm">
+                                    De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om voorraad te beheren en te verplaatsen door middel van een QR-code scanner.
+                                </p>
+                            </div>
+                            <div class="col-span-1">
+                                <img class="w-7/12 ml-auto" src="{{ asset('img/ewa.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div class="flex items-center space-x-4 lg:space-x-6">
-                        <img class="w-20" src="{{ asset('img/ewa.png') }}" alt="">
-                        <div class="space-y-1 text-md font-semibold leading-6">
-                            <h3>Voorraadbeheersysteem</h3>
-                            <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>
-                            <p class="font-normal text-sm">
-                                De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om het gehele veilingsysteem te beheren.
-                            </p>
+                </a>
+                <a href="https://www.europeanwhiskyauctions.com" target="_blank">
+                    <div class="col-span-1 bg-gray-800 hover:bg-gray-700 p-4 rounded">
+                        <div class="grid grid-cols-4">
+                            <div class="col-span-3">
+                                <h3 class="font-bold">Voorraadbeheersysteem</h3>
+                                <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>
+                                <p class="font-normal text-sm">
+                                    De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om het gehele veilingsysteem te beheren.
+                                </p>
+                            </div>
+                            <div class="col-span-1">
+                                <img class="w-7/12 ml-auto" src="{{ asset('img/ewa.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div class="flex items-center space-x-4 lg:space-x-6">
-                        <img class="w-20" src="{{ asset('img/rick-netjes-nobg.png') }}" alt="">
-                        <div class="space-y-1 text-md font-semibold leading-6">
-                            <h3>Portfolio</h3>
-                            <p class="text-[#c3e88d] text-sm font-normal">Prive</p>
-                            <p class="font-normal text-sm">
-                                Ik heb mijn eerste openbare project gemaakt in Laravel met Livewire en TailwindCSS. Deze website heeft een lichte en donkere modus en bevat zelfs een CMS waarmee ik alle records op de site kan toevoegen en bewerken. Het heeft me in totaal 3 maanden gekost om de website te bouwen en in december 2022 heb ik het CMS volledig opnieuw ontworpen.
-                            </p>
+                </a>
+                <a href="https://www.rick-visser.nl" target="_blank">
+                    <div class="col-span-1 bg-gray-800 hover:bg-gray-700 p-4 rounded">
+                        <div class="grid grid-cols-4">
+                            <div class="col-span-3">
+                                <h3 class="font-bold">Portfolio</h3>
+                                <p class="text-[#c3e88d] text-sm font-normal">Prive</p>
+                                <p class="font-normal text-sm">
+                                    Ik heb mijn eerste openbare project gemaakt in Laravel met Livewire en TailwindCSS. Deze website heeft een lichte en donkere modus en bevat zelfs een CMS waarmee ik alle records op de site kan toevoegen en bewerken. Het heeft me in totaal 3 maanden gekost om de website te bouwen en in december 2022 heb ik het CMS volledig opnieuw ontworpen.
+                                </p>
+                            </div>
+                            <div class="col-span-1">
+                                <img class="w-7/12 ml-auto" src="{{ asset('img/rick-netjes-nobg.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                </li>
-            </ul>
+                </a>
+            </div>
+
+{{--            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-1 sm:gap-12 sm:space-y-0 lg:gap-x-8">--}}
+{{--                <li>--}}
+{{--                    <div class="flex items-center space-x-4 lg:space-x-6">--}}
+{{--                        <img class="w-20" src="{{ asset('img/ewa.png') }}" alt="">--}}
+{{--                        <div class="space-y-1 text-md font-semibold leading-6">--}}
+{{--                            <h3>Scanner applicatie</h3>--}}
+{{--                            <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>--}}
+{{--                            <p class="font-normal text-sm">--}}
+{{--                                De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om voorraad te beheren en te verplaatsen door middel van een QR-code scanner.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <div class="flex items-center space-x-4 lg:space-x-6">--}}
+{{--                        <img class="w-20" src="{{ asset('img/ewa.png') }}" alt="">--}}
+{{--                        <div class="space-y-1 text-md font-semibold leading-6">--}}
+{{--                            <h3>Voorraadbeheersysteem</h3>--}}
+{{--                            <p class="text-[#c3e88d] text-sm font-normal">European Whisky Auctions</p>--}}
+{{--                            <p class="font-normal text-sm">--}}
+{{--                                De web-applicatie, gebouwd met Laravel en gestyled met Tailwind, maakt gebruik van Livewire en biedt de mogelijkheid om het gehele veilingsysteem te beheren.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <div class="flex items-center space-x-4 lg:space-x-6">--}}
+{{--                        <img class="w-20" src="{{ asset('img/rick-netjes-nobg.png') }}" alt="">--}}
+{{--                        <div class="space-y-1 text-md font-semibold leading-6">--}}
+{{--                            <h3>Portfolio</h3>--}}
+{{--                            <p class="text-[#c3e88d] text-sm font-normal">Prive</p>--}}
+{{--                            <p class="font-normal text-sm">--}}
+{{--                                Ik heb mijn eerste openbare project gemaakt in Laravel met Livewire en TailwindCSS. Deze website heeft een lichte en donkere modus en bevat zelfs een CMS waarmee ik alle records op de site kan toevoegen en bewerken. Het heeft me in totaal 3 maanden gekost om de website te bouwen en in december 2022 heb ik het CMS volledig opnieuw ontworpen.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </li>--}}
+{{--            </ul>--}}
         </div>
         <span class="text-[#88ddff] font-bold mt-5">}</span>
     </div>

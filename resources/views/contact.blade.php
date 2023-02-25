@@ -12,29 +12,29 @@
             {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
         </div>
         <div class="col-span-2 pl-3 p-1">
-            <div class="grid grid-cols-2 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <a href="mailto:rick@cytorick.nl">
-                    <div class="col-span-1 text-center bg-gray-700 rounded">
+                    <div class="col-span-1 text-center bg-gray-800 hover:bg-gray-700 p-4 rounded">
                         <h2 class="text-xl font-bold"><i class="fa-solid fa-envelopes-bulk"></i> E-mail</h2>
                     </div>
                 </a>
                 <a href="tel:0616720186">
-                    <div class="col-span-1 text-center bg-gray-700 rounded">
+                    <div class="col-span-1 text-center bg-gray-800 hover:bg-gray-700 p-4 rounded">
                         <h2 class="text-xl font-bold"><i class="fa-solid fa-mobile"></i> Telefoon</h2>
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/in/cytorick" target="_blank">
-                    <div class="col-span-1 text-center bg-gray-700 rounded">
+                    <div class="col-span-1 text-center bg-gray-800 hover:bg-gray-700 p-4 rounded">
                         <h2 class="text-xl font-bold"><i class="fa-brands fa-linkedin"></i> LinkedIn</h2>
                     </div>
                 </a>
                 <a href="https://www.instagram.com/rick_groningen/" target="_blank">
-                    <div class="col-span-1 text-center bg-gray-700 rounded">
+                    <div class="col-span-1 text-center bg-gray-800 hover:bg-gray-700 p-4 rounded">
                         <h2 class="text-xl font-bold"><i class="fa-brands fa-instagram"></i> Instagram</h2>
                     </div>
                 </a>
                 <a href="https://rick-visser.nl" target="_blank">
-                    <div class="col-span-1 text-center bg-gray-700 rounded">
+                    <div class="col-span-1 text-center bg-gray-800 hover:bg-gray-700 p-4 rounded">
                         <h2 class="text-xl font-bold"><i class="fa-solid fa-globe"></i> Uitgebreid portfolio</h2>
                     </div>
                 </a>
