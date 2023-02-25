@@ -28,7 +28,7 @@
             <div class="col-span-6 m-1 md:m-0 md:hidden">
                 <div class="navbar bg-gray-900 p-5 rounded-lg">
                     <div class="flex-1">
-                        <h1 class="text-3xl font-bold">RV</h1>
+                        <h1 class="text-3xl font-bold"><a href="/">RV</a></h1>
                     </div>
                     <div class="flex-none">
                         <a href="#my-modal-2" class="btn bg-gray-900 hover:bg-black text-white">
