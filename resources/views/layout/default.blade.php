@@ -105,14 +105,14 @@
 
                 </div>
                 <div class="flex-none">
-                    <a href="#" class="btn bg-gray-900 hover:bg-black text-white">
+                    <a href="#" class="btn bg-gray-900 hover:bg-black text-white border-none -ml-10">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </a>
                 </div>
             </div>
-            <div class="font-bold">
+            <div class="font-bold mt-5">
                 <span class="text-[#c591e7]">public function</span> <span
                     class="text-[#7ca2f4]">menu</span><span class="text-[#88ddff]">(</span><span
                     class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
@@ -155,21 +155,21 @@
                 </a>
                 <span class="text-[#88ddff]">}</span>
             </div>
-            <div class="font-bold mt-5">
-                <span class="text-[#c591e7]">public function</span> <span
-                    class="text-[#7ca2f4]">sluit</span><span class="text-[#88ddff]">(</span><span
-                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
-                <span class="text-[#88ddff]">{</span>
-                <a href="#">
-                    <div
-                        class="code-link hover:bg-gray-700 p-1 pl-3 rounded">
-                        <span class="text-[#ff5370]">$this</span><span class="text-[#88ddff]">-></span><span
-                            class="text-[#eeffff]">modal</span> <span class="text-[#88ddff]">=></span> <span
-                            class="text-[#c3e88d]">"false"</span>
-                    </div>
-                </a>
-                <span class="text-[#88ddff]">}</span>
-            </div>
+{{--            <div class="font-bold mt-5">--}}
+{{--                <span class="text-[#c591e7]">public function</span> <span--}}
+{{--                    class="text-[#7ca2f4]">sluit</span><span class="text-[#88ddff]">(</span><span--}}
+{{--                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>--}}
+{{--                <span class="text-[#88ddff]">{</span>--}}
+{{--                <a href="#">--}}
+{{--                    <div--}}
+{{--                        class="code-link hover:bg-gray-700 p-1 pl-3 rounded">--}}
+{{--                        <span class="text-[#ff5370]">$this</span><span class="text-[#88ddff]">-></span><span--}}
+{{--                            class="text-[#eeffff]">modal</span> <span class="text-[#88ddff]">=></span> <span--}}
+{{--                            class="text-[#c3e88d]">"false"</span>--}}
+{{--                    </div>--}}
+{{--                </a>--}}
+{{--                <span class="text-[#88ddff]">}</span>--}}
+{{--            </div>--}}
         </div>
     </div>
 </main>
