@@ -22,6 +22,19 @@
     <div class="grid grid-cols-2 mb-10">
         <div class="col-span-2 mb-7">
             <h2 class="font-bold"><span class="text-[#c591e7]">public function</span> <span
+                    class="text-[#7ca2f4]">opwarm_muziek</span><span class="text-[#88ddff]">(</span><span
+                    class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
+                <span class="text-[#88ddff]">{</span></h2>
+            {{--            <p class="text-md text-gray-400 pl-3 p-1">// Gedurende de afgelopen jaren heb ik diverse banen en bijbanen gehad, variërend van werkzaamheden als winkelmedewerker/hulpkracht tot ontwikkelaar.</p>--}}
+        </div>
+        <div class="col-span-2 pl-3 p-1">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2KH16WveTQWT6KOG9Rg6e2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <span class="text-[#88ddff] font-bold mt-5">}</span>
+    </div>
+    <div class="grid grid-cols-2 mb-10">
+        <div class="col-span-2 mb-7">
+            <h2 class="font-bold"><span class="text-[#c591e7]">public function</span> <span
                     class="text-[#7ca2f4]">foto_rick</span><span class="text-[#88ddff]">(</span><span
                     class="text-[#eeffff]">$id</span><span class="text-[#88ddff]">)</span><br>
                 <span class="text-[#88ddff]">{</span></h2>
